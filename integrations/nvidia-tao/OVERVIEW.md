@@ -4,7 +4,7 @@ using Rendered.ai synthetic imagery data.
 The notebook is a tutorial that demonstrates the use of the Rendered.ai SDK in conjunction with the NVIDIA TAO toolkit
 as described in the article, ["Using the Rendered.ai Synthetic Data Platform with NVIDIA TAO to Improve Training Data through Closed-Loop ML"](https://medium.com/renderedai/using-the-rendered-ai-f2f0ff92d619).
 
-A user can access datasets on Rendered.ai and evaluate a production grade object detection models for various levels of object obstruction.
+A user can access datasets on Rendered.ai and evaluate a production grade object detection model for various levels of object obstruction.
 The process helps the user understand how CV models will perform on real-world datasets by enabling modification of data generation configurations,
 or graphs, to test hypotheses gleaned from viewing inferences. For example, how object detection accuracy is affected by training data with
 objects at different densities or obstruction levels.
