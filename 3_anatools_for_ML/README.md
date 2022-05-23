@@ -4,7 +4,7 @@ This directory showcases the features of `anatools` relevant to ML piplines with
 ## Contents
 
 ### 1. Running different types of jobs with `anatools`
-- [Dataset Analytics Jobs](./Analytics%Jobs.ipynb)
+- [Dataset Analytics Jobs](./Dataset%20Analytics%20Jobs.ipynb)
 - [Generate Annotations for Datasets](./Generate%20Annotations%20for%20Datasets.ipynb)
 - [Domain Adaptation Jobs](./Domain%20Adaptation%20Jobs.ipynb)
 

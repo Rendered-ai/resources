@@ -6,21 +6,15 @@ Note that you must have a valid Rendered.ai account prior to running the noteboo
 
 ## Table of Contents
 
-### 1. Getting Started
-- [Generate Synthetic Data with Graphs and Datasets](./1_getting_started/Generate%20Synthetic%20Data%20with%20Graphs%20and%20Datasets.ipynb)
+### 1. [Getting Started with `anatools`](./1_getting_started)
 
-
-### 2. Administration
-- [Organization and Workspace Administration](./2_administration/Organization%20and%20Workspace%20Administration.ipynb)
-- [Channel and Volume Administration](./2_administration/Channel%20and%20Volume%20Administration.ipynb)
-
+### 2. [Administration with `anatools`](./2_administration)
 
 ### 3. [`anatools` for ML](./3_anatools_for_ML)
-Covering the Rendered.ai Microservices:
+Covering the Rendered.ai jobs:
 - Dataset Analytics
 - Domain Adaptation
 - Annotations
-
 
 ### 4. ML Integrations
 - [Integrations with NVIDIA TAO](./4_integrations/nvidia-tao)
