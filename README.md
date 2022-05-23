@@ -24,3 +24,19 @@ Covering the Rendered.ai Microservices:
 
 ### 4. ML Integrations
 - [Integrations with NVIDIA TAO](./4_integrations/nvidia-tao)
+
+
+## Environment
+Python 3 is required; 3.7 is preferred.
+
+These notebooks depend on the Rendered.ai Python module [anatools](https://pypi.org/project/anatools/). Make sure you install it in your environment.
+
+<code>pip install anatools</code>
+
+Other Required Python Modules. These must be installed prior to running the notebooks.
+- PyYAML
+- json
+- wget
+- numpy
+- matplotlib
+- PIL
