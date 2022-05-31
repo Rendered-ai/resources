@@ -11,7 +11,7 @@ Note that you must have a valid Rendered.ai account prior to running the noteboo
 ### 2. [Administration with `anatools`](./2_administration)
 
 ### 3. [`anatools` for ML](./3_anatools_for_ML)
-Covering the Rendered.ai jobs:
+Covering the additional Rendered.ai features:
 - Dataset Analytics
 - Domain Adaptation
 - Annotations

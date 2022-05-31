@@ -3,6 +3,10 @@ This directory highlights the features of `anatools` relevant to channel develop
 
 ## Contents
 
-### 1. [Channel and Volume Administration](./Channel%20and%20Volume%20Administration.ipynb)
+### 1. [Channel Administration](./Channel%20Administration.ipynb)
 
-### 2. [Organization and Workspace Administration](./Organization%20and%20Workspace%20Administration.ipynb)
+### 2. [Volume Administration](./Volume%20Administration.ipynb)
+
+### 3. [Organization Administration](./Organization%20Administration.ipynb)
+
+### 4. [Workspace Administration](./Workspace%20Administration.ipynb)
