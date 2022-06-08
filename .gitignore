@@ -6,3 +6,4 @@
 *.yml
 *.json
 *.png
+*.ipynb_checkpoints
