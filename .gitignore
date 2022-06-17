@@ -2,7 +2,5 @@
 ############
 # Unwanted file types seen when using the SDK
 *.zip
-*.yaml
-*.yml
 *.json
-*.png
+*.ipynb_checkpoints

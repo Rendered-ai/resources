@@ -1,0 +1,92 @@
+channel: example
+created: Mon, 11 Apr 2022 21:46:23 GMT
+graph:
+  version: 2
+  nodes:
+    Render_0:
+      nodeClass: Render
+      values:
+        Width (px): '512'
+        Height (px): '512'
+      links:
+        Objects of Interest:
+          - sourceNode: DropObjects_2
+            outputPort: Objects of Interest
+    Skateboard_1:
+      nodeClass: Skateboard
+      values: {}
+      links: {}
+    DropObjects_2:
+      nodeClass: Drop Objects
+      values: {}
+      links:
+        Container Generator:
+          - sourceNode: Container_3
+            outputPort: Container Generator
+        Floor Generator:
+          - sourceNode: Floor_11
+            outputPort: Floor Generator
+        Objects:
+          - sourceNode: RandomPlacement_8
+            outputPort: Objects
+    Container_3:
+      nodeClass: Container
+      values:
+        Container Type: <random>
+      links: {}
+    ColorVariation_4:
+      nodeClass: Color Variation
+      values:
+        Color: <random>
+      links:
+        Generators:
+          - sourceNode: YoYo_9
+            outputPort: Yoyo Generator
+          - sourceNode: Playdough_10
+            outputPort: Play Dough Generator
+          - sourceNode: Skateboard_1
+            outputPort: Skateboard Generator
+          - sourceNode: Bubbles_7
+            outputPort: Bubbles Bottle Generator
+    RubiksCube_5:
+      nodeClass: Rubik's Cube
+      values: {}
+      links: {}
+    Weight_6:
+      nodeClass: Weight
+      values:
+        Weight: '4'
+      links:
+        Generator:
+          - sourceNode: ColorVariation_4
+            outputPort: Generator
+    Bubbles_7:
+      nodeClass: Bubbles
+      values: {}
+      links: {}
+    RandomPlacement_8:
+      nodeClass: Random Placement
+      values:
+        Number of Objects: 25
+      links:
+        Object Generators:
+          - sourceNode: RubiksCube_5
+            outputPort: Rubik's Cube Generator
+          - sourceNode: Weight_6
+            outputPort: Generator
+    YoYo_9:
+      nodeClass: Yo-yo
+      values: {}
+      links: {}
+    Playdough_10:
+      nodeClass: Playdough
+      values: {}
+      links: {}
+    Floor_11:
+      nodeClass: Floor
+      values:
+        Floor Type: <random>
+      links: {}
+graphid: ba2c4f03-11fe-4f08-912f-ce76d54b3b73
+user: skulkarni329@gatech.edu
+name: Example Staged Graph
