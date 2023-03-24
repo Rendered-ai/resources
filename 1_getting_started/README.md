@@ -7,4 +7,4 @@ Welcome to getting started! This directory is a starting point for learning how 
 
 ### 2. [Datasets](./Datasets.ipynb)
 
-### 3. [Generate Synthetic Data with the Example Channel](./Generate%20Synthetic%20Data%20with%20the%20Example%20Channel.ipynb)
+### 3. [Generate Synthetic Data with the Example Channel](./Generate%20Synthetic%20Data%20with%20the%20Toybox%20Channel.ipynb)
