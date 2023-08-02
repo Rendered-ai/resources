@@ -15,6 +15,7 @@ Covering the additional Rendered.ai features:
 - Dataset Analytics
 - Domain Adaptation
 - Annotations
+- Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)
 
 ### 4. ML Integrations
 - [Integrations with NVIDIA TAO](./4_integrations/nvidia-tao)
