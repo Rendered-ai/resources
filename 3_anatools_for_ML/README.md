@@ -7,5 +7,6 @@ This directory showcases the features of `anatools` relevant to ML piplines with
 - [Dataset Analytics](./Dataset%20Analytics.ipynb)
 - [Generate Annotations for Datasets](./Generate%20Annotations%20for%20Datasets.ipynb)
 - [Domain Adaptation](./Domain%20Adaptation.ipynb)
+- [Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)](./UMAP.ipynb)
 
 ### 2. [ML Pipeline Utilities](./ML%20Pipeline%20Utilities.ipynb)
